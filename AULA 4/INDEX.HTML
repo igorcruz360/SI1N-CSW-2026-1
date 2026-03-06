@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Principais formatações</h1>
+<h2> Negrito/Destaque</h2>
+<br>
+<p>Na frase temos uma <b>parte do texto em negrito</b> usando a tag B (não semântica)</p>
+<p>Na frase temos uma <strong>parte do texto em negrito</strong> usando a tag strong (com semântica)</p>
+<br>
+<h2>Itálico/Ênfase</h2>
+<p>Nessa frase vamos entrar com uma palavraem <i>itálico</i> usando a tag i (não semântica)</p>
+<p>Nessa frase vamos entrar com uma palavraem <em>itálico</em> usando a tag EM  (com semântica)</p>
+<br>
+<h2>Texto Marcador</h2>
+<p>Aqui vamos usar um texto com destaque de<mark style="background-color: green;"> marcador de texto</mark> usando mark</p>
+<p>Aqui vamos usar um texto com destaque de<mark> marcador de texto</mark> usando mark</p>
+<br>
+<h2>Texto grande e pequeno</h2>
+<p>Estamos trabalhando aqui com um <big>texto grande</big> e um <small>texto pequeno</small> nesta formatações</p>
+<br>
+<h2>texto deletado</h2>
+<p>Neste paragrafo vamos trabalhar com um texto <del>que foi excluído</del> da frase (forma semântica)</p>
+<br>
+<h1>texto inserido</h1>
+<p>Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma não semâtica</p>
+<p>Nesta frase vamos demonstrar como <ins>destacar um texto inserido</ins> na frase de forma semâtica</p>
+<br>
+<h2>texto sobrescrito</h2>
+<p>vamos demosntrar uma formula da equação do segundo grau ax<sup>2</sup>+bx+c=0 usando tag sup</p>
+<h1>texto subrescrito</h1>
+<p>vamos demosntrar uma formula H<sub>2</sub>O usando tag sup</p>
+<br>
+<h2>texto código fonte</h2>
+<code>
+    <pre>
+        def funcao_segundo_grau(a, b, c, x):
+    resultado = a * x**2 + b * x + c
+    return resultado
+
+# exemplo de uso
+a = 2
+b = 3
+c = -1
+x = 4
+
+valor = funcao_segundo_grau(a, b, c, x)
+print("Resultado:", valor)
+<br>
+<h2>Citação (quotation)</h2>
+    </pre>
+</code>
+<p>segundo o livro 1984</p>
+<blockquote cite="https://www.dhnet.org.br/direitos/anthist/marcos/hdh_george_orwell_1984.pdf">
+    <p>[...]Dentro do apartamento uma voz sonora lia uma lista de cifras relacionadas com a produção de ferro gusa. A voz saía
+de uma placa metálica retangular semelhante a um espêlho fosco, embutido na parede direita. Winston torceu um
+comutador e a voz diminuiu um pouco, embora as palavras ainda fossem audíveis. O aparelho (chamava-se teletela)
+podia ter o volume reduzido, mas era impossível desligá-lo de vez. Winston foi até a janela: uma figura miuda[...]</p>
+</blockquote>
+</body>
+</html>
