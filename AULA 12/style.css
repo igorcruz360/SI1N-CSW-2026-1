@@ -1,0 +1,37 @@
+.importante:hover{
+    color: red;
+}
+
+
+
+
+.link{
+display: inline-block;
+background-color: greenyellow;
+text-align: center;
+height: 200px;
+width: 200px;
+border: 1px solid black;
+}
+
+
+
+
+
+
+.link:hover{
+display: inline-block;
+background-color: green;
+text-align: center;
+height: 200px;
+width: 200px;
+border: 1px solid black;
+}
+
+.link::before{
+    content: '*';
+}
+.link::after{
+    content: '\1F39C';
+    
+}
