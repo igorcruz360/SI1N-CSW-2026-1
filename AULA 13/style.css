@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 3px solid rgb(red, green, blue);
+    width: 500px;
+    height: 50px;
+}
+
+.init {
+    padding: 50px;
+}
+
+.quadrad {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.linhas {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+.linha {
+    width: 45px;
+    height: 15px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.cabeca {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid;
+    border-radius: 15px;
+    padding: 16px;
+}
+
+.item1 {
+ flex: auto;
+ padding: 30px;
+    border: 5px solid;
+    border-radius: 15px;
+    flex-grow: 1;
+    
+}
+
+.item2 {
+flex: auto;
+ padding: 30px;
+    border: 5px solid;
+    border-radius: 15px;
+    flex-grow: 1;
+}
+
+.item3{
+    flex-shrink: 3;
+}
+
+.cabeca2{
+   gap: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.linha2{
+    gap: 16px;
+    align-items: stretch;
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+}
